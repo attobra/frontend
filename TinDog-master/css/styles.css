@@ -1,0 +1,177 @@
+
+body{
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 900;
+}
+
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Containers */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section{
+  background-color: white;
+
+}
+/* Navigation Bar + REMOVE PADDING left and right to align navbar with rest of the text*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/* Title Section */
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image{
+  width: 60%; /* 60% of his parent container */
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+
+/* Features section */
+#features{
+  position: relative;
+  z-index: 1;
+}
+
+.icon-image{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon-image:hover{
+  color:#ff4c68;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+}
+
+.feature-box{
+  padding: 5%;
+}
+
+/* testimonials Section */
+#testimonials{
+  background-color: #ef8172;
+  /* padding: 7% 15%; pu padding in each element of carousel to make sure the next and
+  previous arrows stay outside the item*/
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  width: 10%;
+  margin: 20px;
+}
+
+.carousel-item{
+  /* to make sure that the arrow is outside the carousel item */
+  /* padding: 7% 15%; */
+}
+/* Press section */
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+
+}
+/* pricing section */
+#pricing{
+  padding: 100px;
+  /* more padding for the pricing section */
+
+}
+
+.price-text{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.pricing-column{
+  padding:3% 2%;
+
+}
+
+/* call to action section */
+
+/* footer section */
+
+.footer-icon{
+  padding: 2%;
+}
+
+/* to make it responsive using native CSS and not alibrary like bootstrap */
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    /* change position back to static */
+    position: static;
+    transform: rotate(0);
+  }
+}

@@ -1,0 +1,15 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body{
+  text-align: center;
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+.line1{
+  font-weight: 200;
+}
+.line2{
+  font-weight: 600;
+}

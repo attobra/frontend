@@ -1,0 +1,11 @@
+{
+  "name": "my-sites",
+  "version": "1.0.0",
+  "description": "This will load all my site",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
+}
