@@ -1,0 +1,101 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+h3{
+  color: hsl(217, 19%, 35%);
+}
+
+.container{
+  margin-top: 10px;
+}
+.row{
+  margin: 10%;
+}
+.description{
+
+}
+.drawers{
+  width: 100%;
+}
+.avatar-div{
+  text-align:center;
+}
+
+.avatar{
+  width: 50px;
+  margin: 15px;
+}
+
+.signature{
+  color: hsl(217, 19%, 35%);
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+.date{
+  color: hsl(212, 23%, 69%);
+
+}
+
+.icon{
+  margin: 15px 5px 15px 100px;
+  width: 30px;
+  height: 30px;
+  background-color: hsl(210, 46%, 95%);
+
+
+}
+
+.icon:hover{
+  background-color: hsl(212, 23%, 69%);
+
+}
+.footer{
+  margin-top: 100px;
+
+}
+
+.socials li {
+  float: left;
+  padding-left: 14px;
+  list-style-type: none;
+}
+
+.socials img {
+  height: 1.3em;
+}
+
+
+
+.popuptext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+  width: 14em;
+  height: 3em;
+  background-color: hsl(217, 19%, 35%);
+  color: hsl(212, 23%, 69%);
+  line-height: 1;
+  border-radius: 10px;
+  padding: 3px 10px;
+  position: absolute;
+  bottom: 180%;
+  left: 40%;
+  margin-left: -101px;
+}
+
+.popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -8px;
+  border-width: 10px;
+  border-style: solid;
+  border-color: hsl(217, 19%, 35%) transparent transparent transparent;
+}
+
+.icon .show {
+  visibility: visible;
+  animation: fadeIn 1s
+}

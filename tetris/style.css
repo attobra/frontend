@@ -1,0 +1,19 @@
+.grid {
+  width:200px;
+  height: 400px;
+  display: flex;
+  /* to make sure that the small divs stay inside the big div
+and never go outside the div. */
+  flex-wrap: wrap;
+  background-color: yellow;
+
+}
+
+.grid div{
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino{
+  background-color: lightblue;
+}
